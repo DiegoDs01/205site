@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    
+}
+
+header{
+    height: 100px;
+    /* background-image: url(img/logo.png); */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    }
+
+
+input{
+    display: flex;
+    border-radius: 70px;
+    background-color: white;
+    height: 20px;
+    width: 400px;
+    margin: none;
+}
+
+header img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 110%;
+}
+
+button{
+    width: 100px;   
+    height: 30px;
+    color: white;
+    background-color: black;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16pt;
+}
+
+button:hover{
+    color: rgb(255, 255, 0);
+    font-size: 17pt;
+}
+
+nav{
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.815);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+nav a{
+    text-decoration: none;
+    font-size: 15pt;
+    color: white;
+}
+
+nav a:hover{
+    font-size: 17pt;
+    transition: 0.5s;
+}
+
+aside{
+    height: 600px;
+    background-image: url(img/head.jpg);
+    background-size: cover;
+}
+
+section{
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section div img{
+    height: 300px;
+    margin: 30px;
+}
+
+
+
+footer{
+    background-color: black;
+    height: 30px;
+}
